@@ -37,6 +37,7 @@
 .btn-square {
   width: 40px;
   height: 40px;
+  border-radius: 50%;
 }
 
 .btn-sm-square {
