@@ -258,13 +258,13 @@ h6,
 
   .fadi-img {
     margin-top: 10px;
-    border-radius: 20% !important;
+    border-radius: 25% !important;
   }
 }
 
 .fadi-img {
-  border-radius: 10%;
-  padding-top: 10px;
+  border-radius: 25%;
+  /* padding-top: 10px; */
 }
 
 /* .header-box {
