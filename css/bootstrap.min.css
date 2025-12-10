@@ -2259,7 +2259,7 @@ progress {
     background-color: #fff;
     border-color: #80dcbd;
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(0, 184, 123, 0.25)
+    box-shadow: 0 0 0 .25rem rgba(0, 123, 255, 0.25)
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -2432,7 +2432,7 @@ textarea.form-control-lg {
 .form-select:focus {
     border-color: #80dcbd;
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(0, 184, 123, 0.25)
+    box-shadow: 0 0 0 .25rem rgba(0, 123, 255, 0.25)
 }
 
 .form-select[multiple],
@@ -2501,7 +2501,7 @@ textarea.form-control-lg {
 .form-check-input:focus {
     border-color: #80dcbd;
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(0, 184, 123, 0.25)
+    box-shadow: 0 0 0 .25rem rgba(0, 123, 255, 0.25)
 }
 
 .form-check-input:checked {
@@ -2592,11 +2592,11 @@ textarea.form-control-lg {
 }
 
 .form-range:focus::-webkit-slider-thumb {
-    box-shadow: 0 0 0 1px #2C3E50, 0 0 0 .25rem rgba(0, 184, 123, 0.25)
+    box-shadow: 0 0 0 1px #2C3E50, 0 0 0 .25rem rgba(0, 123, 255, 0.25)
 }
 
 .form-range:focus::-moz-range-thumb {
-    box-shadow: 0 0 0 1px #2C3E50, 0 0 0 .25rem rgba(0, 184, 123, 0.25)
+    box-shadow: 0 0 0 1px #2C3E50, 0 0 0 .25rem rgba(0, 123, 255, 0.25)
 }
 
 .form-range::-moz-focus-outer {
@@ -3035,7 +3035,7 @@ textarea.form-control.is-invalid {
 .btn-check:focus+.btn,
 .btn:focus {
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(0, 184, 123, 0.25)
+    box-shadow: 0 0 0 .25rem rgba(0, 123, 255, 0.25);
 }
 
 .btn:disabled,
@@ -4929,7 +4929,7 @@ fieldset:disabled .btn {
     z-index: 3;
     border-color: #80dcbd;
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(0, 184, 123, 0.25)
+    box-shadow: 0 0 0 .25rem rgba(0, 123, 255, 0.25)
 }
 
 .accordion-header {
@@ -5023,7 +5023,7 @@ fieldset:disabled .btn {
     color: #009362;
     background-color: #e9ecef;
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(0, 184, 123, 0.25)
+    box-shadow: 0 0 0 .25rem rgba(0, 123, 255, 0.25)
 }
 
 .page-item:not(:first-child) .page-link {
@@ -5582,7 +5582,7 @@ fieldset:disabled .btn {
 
 .btn-close:focus {
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(0, 184, 123, 0.25);
+    box-shadow: 0 0 0 .25rem rgba(0, 123, 255, 0.25);
     opacity: 1
 }
 
