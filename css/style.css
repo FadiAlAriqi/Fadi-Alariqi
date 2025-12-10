@@ -264,4 +264,6 @@ h6,
 
 .fadi-img {
   border-radius: 10%;
+  margin-top: 10px;
+  width: 90% !important;
 }
