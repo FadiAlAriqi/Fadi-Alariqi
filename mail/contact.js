@@ -27,22 +27,38 @@ $(function () {
                 dataType: "json",
                 success: function () {
                     // إنشاء رسالة النجاح بتنسيق Bootstrap محسّن
-                    $('#success').html(
-                        '<div class="alert alert-success alert-dismissible fade show" role="alert">' +
+                    var alertHtml = '<div class="alert alert-success alert-dismissible fade show" role="alert" id="alertBox">' +
                         '<strong>Success!</strong> Your message has been sent successfully.' +
-                        '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
-                        '</div>'
-                    );
+                        '<button type="button" class="btn-close" aria-label="Close"></button>' +
+                        '</div>';
+                    
+                    $('#success').html(alertHtml);
+                    
+                    // إضافة وظيفة الإغلاق اليدوية
+                    $('#alertBox .btn-close').on('click', function() {
+                        $('#alertBox').fadeOut('slow', function() {
+                            $(this).remove();
+                        });
+                    });
+                    
                     $('#contactForm').trigger("reset");
                 },
                 error: function () {
                     // إنشاء رسالة الخطأ بتنسيق Bootstrap محسّن
-                    $('#success').html(
-                        '<div class="alert alert-danger alert-dismissible fade show" role="alert">' +
+                    var alertHtml = '<div class="alert alert-danger alert-dismissible fade show" role="alert" id="alertBox">' +
                         '<strong>Error!</strong> Sorry ' + name + ', it seems that our mail server is not responding. Please try again later!' +
-                        '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
-                        '</div>'
-                    );
+                        '<button type="button" class="btn-close" aria-label="Close"></button>' +
+                        '</div>';
+                    
+                    $('#success').html(alertHtml);
+                    
+                    // إضافة وظيفة الإغلاق اليدوية
+                    $('#alertBox .btn-close').on('click', function() {
+                        $('#alertBox').fadeOut('slow', function() {
+                            $(this).remove();
+                        });
+                    });
+                    
                     $('#contactForm').trigger("reset");
                 },
                 complete: function () {
